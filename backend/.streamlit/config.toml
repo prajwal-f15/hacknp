@@ -1,0 +1,19 @@
+[server]
+maxUploadSize = 200
+maxMessageSize = 200
+enableCORS = true
+enableXsrfProtection = true
+headless = true
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+serverPort = 8502
+
+[runner]
+magicEnabled = true
+fastReruns = true
+
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"

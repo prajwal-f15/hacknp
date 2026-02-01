@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Databases (CRITICAL: Contains patient data - NEVER commit)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/medical_history.db
+backend/chat_messages.db
+
+# Uploads (temporary files with PHI - Protected Health Information)
+uploads/
+backend/uploads/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.wav
+
+# AI Models (too large for Git - install via requirements.txt)
+backend/models/Mistral-7B-Instruct/
+backend/models/**/models--*/
+backend/models/**/*.safetensors
+backend/models/**/*.bin
+backend/models/**/*.gguf
+backend/models/*.bin
+backend/models/*.gguf
+backend/models/*.safetensors
+backend/models/tesseract-installer.exe
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env*.local
+
+# Backend environment
+backend/.env
+backend/.env.local
+
+# Logs
+*.log
+logs/
+backend/logs/
+frontend/logs/

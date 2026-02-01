@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual Environment
+../.venv/
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Databases (sensitive patient data - DO NOT COMMIT)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+medical_history.db
+chat_messages.db
+
+# Uploads (temporary files with PHI)
+uploads/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.wav
+
+# AI Models (too large for Git - install via requirements)
+models/Mistral-7B-Instruct/
+models/**/models--*/
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.gguf
+models/*.bin
+models/*.gguf
+models/*.safetensors
+models/tesseract-installer.exe
+
+# Frontend build artifacts (if needed)
+node_modules/
+.next/
+out/
+build/
+dist/
+*.safetensors
+*.bin
+*.gguf
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
